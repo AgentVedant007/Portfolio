@@ -21,6 +21,7 @@
             <li><a href="#home" class="menu-hover"><i class="fas fa-home"></i> Home</a></li>
             <li><a href="#about" class="menu-hover"><i class="fas fa-user"></i> About Me</a></li>
             <li><a href="#skills" class="menu-hover"><i class="fas fa-brain"></i> Skills</a></li>
+            <li><a href="#portfolio" class="menu-hover"><i class="fas fa-briefcase"></i> Portfolio</a></li>
             <li><a href="#contact" class="menu-hover"><i class="fas fa-comment"></i> Contact</a></li>
             <div class="icons">
                 <a href="#" target="_blank"><i class="fab fa-facebook facebook"></i></a>
@@ -28,6 +29,12 @@
                 <a href="#" target="_blank"><i class="fab fa-twitter twitter"></i></a>
             </div>
         </ul>
+        <div class="threelinecontainer" id="menubtncontainer">
+            <button onclick="btnclick">
+            <span class="threeline" id="menubtn">
+            </span>
+        </button>
+        </div>
     </div>
     <div class="banner" id="home">
         <div class="banner-text">
@@ -45,7 +52,7 @@
             <p>Age: 15</p>
             <p>Studies Completed: IX</p>
         </div>
-        <div class="info" style="margin-left: 300px;">
+        <div class="info">
             <p>School: DPS Vadodara</p>
             <p>Nationality: India</p>
             <p>City: Vadodara, Gujarat</p>
@@ -93,6 +100,74 @@
             </div>
         </div>
     </div>
+    <div class="portfolio" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 box">
+                    <div class="subbox">
+                        <a href="#" target="_blank">
+                            <img src="img/education1.jpg" alt="">
+                            <div class="view">
+                                <button>View</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 box">
+                    <div class="subbox">
+                        <a href="#" target="_blank">
+                            <img src="img/education1.jpg" alt="">
+                            <div class="view">
+                                <button>View</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 box">
+                    <div class="subbox">
+                        <a href="#" target="_blank">
+                            <img src="img/education1.jpg" alt="">
+                            <div class="view">
+                                <button>View</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 box">
+                    <div class="subbox">
+                        <a href="#" target="_blank">
+                            <img src="img/education1.jpg" alt="">
+                            <div class="view">
+                                <button>View</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 box">
+                    <div class="subbox">
+                        <a href="#" target="_blank">
+                            <img src="img/education1.jpg" alt="">
+                            <div class="view">
+                                <button>View</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 box">
+                    <div class="subbox">
+                        <a href="#" target="_blank">
+                            <img src="img/education1.jpg" alt="">
+                            <div class="view">
+                                <button>View</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <div class="contact" id="contact">
         <h2 class="heading">Contact</h2>
         <div class="form">
@@ -106,7 +181,7 @@
                 <input type="text" class="input" placeholder="Email-id">
             </div>
             <div>
-                <input type="text" class="input" placeholder="Message" style="height: 80px;">
+                <input type="text" class="input" placeholder="Message" style="height: 50px;">
             </div>
             <button class="submit">Submit</button>
         </div>
@@ -115,6 +190,11 @@
                 loading="lazy"></iframe>
         </div>
     </div>
+    <script>
+        function btnclick() {
+            document.getElementById("menubtn").style.backgroundColor = "red";
+        }
+    </script>
 </body>
 
 </html>
